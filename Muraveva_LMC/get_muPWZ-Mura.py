@@ -1,4 +1,4 @@
-import pandas as pd
+-Muraimport pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -195,102 +195,102 @@ w_logP = w_df.logP
 ########## RR0 PWZ ###############################
 # Wgr
 plot_PWZhist("Wgr", "RR0", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR0-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR0-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0", He25_PWZcoeffs, 'He25', mu_true)
-# plt.savefig(f"figures/dmu-He25PWZ_RR0-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-He25PWZ_RR0-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0", Na24_PWZcoeffs01, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ01_RR0-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ01_RR0-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0", Na24_PWZcoeffs02, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ02_RR0-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ02_RR0-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0", Na24_PWZcoeffs03, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ03_RR0-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ03_RR0-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0", Na24_PWZcoeffs04, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ04_RR0-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ04_RR0-Wgr-Mura", dpi=300)
 
 # Wri
 plot_PWZhist("Wri", "RR0", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR0-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR0-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0", He25_PWZcoeffs, 'He25', mu_true)
-# plt.savefig(f"figures/dmu-He25PWZ_RR0-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-He25PWZ_RR0-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0", Na24_PWZcoeffs01, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ01_RR0-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ01_RR0-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0", Na24_PWZcoeffs02, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ02_RR0-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ02_RR0-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0", Na24_PWZcoeffs03, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ03_RR0-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ03_RR0-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0", Na24_PWZcoeffs04, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ04_RR0-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ04_RR0-Wri-Mura", dpi=300)
 
 # Wgi
 plot_PWZhist("Wgi", "RR0", Ng22_PWZcoeffs, 'Ng22', mu_true)
-#plt.savefig(f"figures/dmu-Ng22PWZ_RR0-Wgi", dpi=300)
+#plt.savefig(f"figures/dmu-Ng22PWZ_RR0-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0", He25_PWZcoeffs, 'He25', mu_true)
-#plt.savefig(f"figures/dmu-He25PWZ_RR0-Wgi", dpi=300)
+#plt.savefig(f"figures/dmu-He25PWZ_RR0-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0", Na24_PWZcoeffs01, 'Na24', mu_true)
-#plt.savefig(f"figures/dmu-Na24PWZ01_RR0-Wgi", dpi=300)
+#plt.savefig(f"figures/dmu-Na24PWZ01_RR0-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0", Na24_PWZcoeffs02, 'Na24', mu_true)
-#plt.savefig(f"figures/dmu-Na24PWZ02_RR0-Wgi", dpi=300)
+#plt.savefig(f"figures/dmu-Na24PWZ02_RR0-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0", Na24_PWZcoeffs03, 'Na24', mu_true)
-#plt.savefig(f"figures/dmu-Na24PWZ03_RR0-Wgi", dpi=300)
+#plt.savefig(f"figures/dmu-Na24PWZ03_RR0-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0", Na24_PWZcoeffs04, 'Na24', mu_true)
-#plt.savefig(f"figures/dmu-Na24PWZ04_RR0-Wgi", dpi=300)
+#plt.savefig(f"figures/dmu-Na24PWZ04_RR0-Wgi-Mura", dpi=300)
 
 
 ##################################################
 ########## RR1 PWZ ###############################
 # Wgr
 plot_PWZhist("Wgr", "RR1", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR1-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR1-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR1", He25_PWZcoeffs, 'He25', mu_true)
-# plt.savefig(f"figures/dmu-He25PWZ_RR1-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-He25PWZ_RR1-Wgr-Mura", dpi=300)
 
 # Wri
 plot_PWZhist("Wri", "RR1", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR1-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR1-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR1", He25_PWZcoeffs, 'He25', mu_true)
-# plt.savefig(f"figures/dmu-He25PWZ_RR1-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-He25PWZ_RR1-Wri-Mura", dpi=300)
 
 # Wgi
 plot_PWZhist("Wgi", "RR1", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR1-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR1-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR1", He25_PWZcoeffs, 'He25', mu_true)
-# plt.savefig(f"figures/dmu-He25PWZ_RR1-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-He25PWZ_RR1-Wgi-Mura", dpi=300)
 
 
 ##################################################
 ########## RR0+RR1 PWZ ###########################
 # Wgr
 plot_PWZhist("Wgr", "RR0+RR1", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR01-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR01-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0+RR1", Na24_PWZcoeffs01, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ01_RR01-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ01_RR01-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0+RR1", Na24_PWZcoeffs02, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ02_RR01-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ02_RR01-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0+RR1", Na24_PWZcoeffs03, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ03_RR01-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ03_RR01-Wgr-Mura", dpi=300)
 plot_PWZhist("Wgr", "RR0+RR1", Na24_PWZcoeffs04, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ04_RR01-Wgr", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ04_RR01-Wgr-Mura", dpi=300)
 
 # Wgi
 plot_PWZhist("Wri", "RR0+RR1", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR01-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR01-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0+RR1", Na24_PWZcoeffs01, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ01_RR01-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ01_RR01-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0+RR1", Na24_PWZcoeffs02, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ02_RR01-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ02_RR01-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0+RR1", Na24_PWZcoeffs03, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ03_RR01-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ03_RR01-Wri-Mura", dpi=300)
 plot_PWZhist("Wri", "RR0+RR1", Na24_PWZcoeffs04, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ04_RR01-Wri", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ04_RR01-Wri-Mura", dpi=300)
 
 # Wri
 plot_PWZhist("Wgi", "RR0+RR1", Ng22_PWZcoeffs, 'Ng22', mu_true)
-# plt.savefig(f"figures/dmu-Ng22PWZ_RR01-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-Ng22PWZ_RR01-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0+RR1", Na24_PWZcoeffs01, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ01_RR01-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ01_RR01-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0+RR1", Na24_PWZcoeffs02, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ02_RR01-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ02_RR01-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0+RR1", Na24_PWZcoeffs03, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ03_RR01-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ03_RR01-Wgi-Mura", dpi=300)
 plot_PWZhist("Wgi", "RR0+RR1", Na24_PWZcoeffs04, 'Na24', mu_true)
-# plt.savefig(f"figures/dmu-Na24PWZ04_RR01-Wgi", dpi=300)
+# plt.savefig(f"figures/dmu-Na24PWZ04_RR01-Wgi-Mura", dpi=300)
